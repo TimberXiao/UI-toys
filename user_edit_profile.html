@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<!-- Title here -->
-		<title>Create Question - OpenClicker</title>
+		<title>Edit Profile - OpenClicker</title>
 		<!-- Description, Keywords and Author -->
 		<meta name="description" content="Your description">
 		<meta name="keywords" content="Your,Keywords">
@@ -50,7 +50,7 @@
 					<!-- Heading -->
 					<div class="single-head">
 						<!-- Heading -->
-						<h1 class="pull-left text-primary"><i class="fa fa-credit-card red"></i> Create a Question</h1>
+						<h1 class="pull-left text-primary"><i class="fa fa-credit-card red"></i> Edit Profile</h1>
 						<!-- Bread crumbs -->
 						<div class="breads pull-right">
 							<strong>Nav</strong> : <a href="home.html">Home</a> / <a href="#">Sign</a>
@@ -60,47 +60,30 @@
 					<div class="page-form">
 						<form class="form-horizontal" role="form"> 
 							<div class="form-group">
-								<label class="col-lg-2 control-label">Title</label>
-								<div class="col-lg-10">
-									<input type="text" class="form-control" placeholder="Title of the question">
+								<label class="col-lg-2 control-label">Name</label>
+								<div class="col-lg-3">
+									<input type="text" class="form-control">
 								</div>
 							</div>
 
 							<div class="form-group">
-								<label class="col-lg-2 control-label">Question</label>
-								<div class="col-lg-10">
-									<textarea class="form-control" rows="3" placeholder="Question"></textarea>
+								<label class="col-lg-2 control-label">Email</label>
+								<div class="col-lg-3">
+									<input type="email" class="form-control">
 								</div>
 							</div>
 
 							<div class="form-group">
-								<label class="col-lg-2 control-label">Clicker question type</label>
-								<div class="col-lg-10">
-									<div class="radio">
-										<label>
-											<input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-											One answer possible
-										</label>
-									</div>
-									<div class="radio">
-										<label>
-											<input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-											Multiple answers possible
-										</label>
-									</div>
+								<label class="col-lg-2 control-label">School or Institution</label>
+								<div class="col-lg-3">
+									<input type="text" class="form-control">
 								</div>
 							</div>
-						
-							<!-- Question Selections start -->
+
 							<div class="form-group">
-								<label class="col-lg-2 control-label">Selections</label>
-								<input type="hidden" name="count" value="1" />
-								<div class="control-group" id="fields">
-									<div class="controls selection-group" id="profs"> 
-										<input autocomplete="off" class="input" id="field1" name="prof1" type="text" placeholder="Type a selection" data-items="8"/><button id="b1" class="btn add-more" type="button">+</button>
-										<br>
-										<small>Press + to add another form field :)</small>
-									</div>
+								<label class="col-lg-2 control-label">Student ID</label>
+								<div class="col-lg-3">
+									<input type="text" class="form-control">
 								</div>
 							</div>
 
@@ -108,11 +91,11 @@
 	    					<div class="form-group">
 								<div class="col-lg-offset-2 col-lg-10">
 									<button type="button" class="btn btn-warning">Cancel</button>
-									<button type="button" class="btn btn-primary">Add one more</button>
-									<a href="question_presentation.html"><button type="button" class="btn btn-success">Send</button></a>
+									<a href="home.html"><button type="button" class="btn btn-success">Save</button></a>
 								</div>	
 							</div>
 							<!-- Buttons end -->
+							
 	    				</form>
 							
 	    			</div><!-- Question creation end -->
